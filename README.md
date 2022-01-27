@@ -2,7 +2,7 @@
 
 Chainlist is a sample Ethereum Dapp linked to the course available on Udemy: https://www.udemy.com/getting-started-with-ethereum-solidity-development
 
-This repository gives the latest configuration (january 2022) and sources files to run the contracts and the tests.
+This repository gives the latest configuration (january 2022) and sources files to run the contracts and the tests on Windows 10
 
 # latest configuration
 Ganache v2.5.4
@@ -13,19 +13,22 @@ Node v16.13.2
 npm 8.3.2
 
 Web3.js v1.5.3
-Geth 1.10.15-stable
+
 
 Windows 10
 
 Don't forget to install hdwalet-provider under the project directory npm install @truffle/hdwallet-provider
 (npm audit fix --force if any problem)
 
+Geth 1.10.15-stable, if you want to run a local node
+
+
 **Make sure you don't run tests on Ethereum's main net otherwise you will use real ether with no chance to get them back**
 
 Pascal DUVAL - 01/2022
 thanks to Sebastien Arbogast, the author of the udemy course
 
-# bugs reamining with truffle compilation, test and migration allright 
+# bugs remaining with truffle compilation, test and migration allright 
 [{
 	"resource": "...chainlist-truffle5/contracts/ChainList.sol",
 	"severity": 8,
