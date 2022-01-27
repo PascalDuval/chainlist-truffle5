@@ -42,7 +42,7 @@ contract ChainList is Ownable {
     // kill the smart contract
     //function kill() public onlyOwner {
     //selfdestruct(onlyOwner);
-    // }
+     // }
 
     // sell an article
     function sellArticle(string memory _name, string memory _description, uint256 _price) public {
@@ -52,7 +52,7 @@ contract ChainList is Ownable {
         // store this article
         articles[articleCounter] = Article(
             articleCounter,
-             // correction : msg.sender 
+             // Invalid type for argument in function call. Invalid implicit conversion from address to address payable requested!! 
             msg.sender,
             address(0),
             _name,
