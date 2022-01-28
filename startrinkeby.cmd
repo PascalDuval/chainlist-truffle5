@@ -1,1 +1,1 @@
-geth --rinkeby --rpc --rpcapi="personal,eth,network,web3,net"
+geth --rinkeby --http --http.port "8545" --http.addr "127.0.0.1"  --http.corsdomain "*" --http.api "eth,web3,personal,net"

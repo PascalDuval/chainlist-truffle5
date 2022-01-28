@@ -6,7 +6,8 @@ node_modules
 package-lock.json
 
 # Github Artefacts
-# docs
+docs
+deployfrontend.cmd
 
 # Mac specific
 .DS_Store

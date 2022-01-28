@@ -4,6 +4,7 @@ Chainlist is a sample Ethereum Dapp linked to the course available on Udemy: htt
 
 This repository gives the latest configuration (january 2022) and sources files to run the contracts and the tests on Windows 10
 
+
 # latest configuration
 Ganache v2.5.4
 Truffle v5.4.30 (core: 5.4.30)
@@ -20,7 +21,7 @@ Windows 10
 Don't forget to install hdwalet-provider under the project directory npm install @truffle/hdwallet-provider
 (npm audit fix --force if any problem)
 
-Geth 1.10.15-stable, if you want to run a local node
+Geth 1.10.15-stable, if you want to run a local node (all windows command to launch geth nodes have been updated) 
 
 
 **Make sure you don't run tests on Ethereum's main net otherwise you will use real ether with no chance to get them back**
@@ -42,4 +43,9 @@ thanks to Sebastien Arbogast, the author of the udemy course
 	"startLineNumber": 17,
 }]
 
+The kill function is for that reason in comments
+// kill the smart contract
+// function kill() public onlyOwner {
+// selfdestruct(onlyOwner);
+// }
 
